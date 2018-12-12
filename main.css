@@ -1,0 +1,21 @@
+ul {background: #B9CDFF;
+padding: 20px;}
+h1 {
+  background-color: #3399df;
+}
+body {
+  background-color: #D6A7FF;
+  align-content: center;
+}
+
+td {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+table{padding-right: 15px;
+}
+th{
+  padding-right: 15px;
+  background-color: #B9CDFF;
+}
+h3{background-color: #3399df;}
