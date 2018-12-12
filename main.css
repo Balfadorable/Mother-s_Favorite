@@ -7,29 +7,32 @@ ul {
   list-style-type: none;
   overflow: hidden;
 }
-li{
+
+li {
   float: left;
 }
-a{
+
+a {
   color: black;
-  display:block;
+  display: block;
   padding: 10px;
   background-color: #cce490;
 }
 
-li a:hover{
+li a:hover {
   background-color: #0c907d;
   color: white;
 }
 
-
 h1 {
   background-color: #cce490;
 }
+
 body {
   background-color: #f2f4b2;
   align-content: center;
 }
+
 hr {
   height: 60px;
   width: 10%;
@@ -42,15 +45,22 @@ td {
   padding-right: 15px;
   padding-left: 15px;
 }
-table{padding-right: 15px;
+
+table {
+  padding-right: 15px;
 }
-th{
+
+th {
   padding-right: 15px;
   background-color: #B9CDFF;
 }
-h3{
+
+h3 {
   text-align: center;
   background-color: #cce490;
 }
 
-p{text-align: center;}
+p {
+  text-align: center;
+}
+img{border-radius: 50%;}
