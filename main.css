@@ -19,7 +19,7 @@ a {
   background-color: #cce490;
 }
 
-li a:hover {
+a:hover {
   background-color: #0c907d;
   color: white;
 }
@@ -38,7 +38,7 @@ hr {
   width: 10%;
   border-style: dotted none none none;
   border-width: thick;
-  border-color: #0c907d;
+  border-color: #0d627a;
 }
 
 td {
@@ -65,12 +65,18 @@ p {
 }
 
 img {
+  -ms-transition: -ms-transition 4s;
+  -o-transition: -o-transform 4s;
+  -moz-transition: -moz-transform 4s;
   -webkit-transition: -webkit-transform 4s;
   transition: transform 4s;
   border-radius: 50%;
 }
 
 img:hover {
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
